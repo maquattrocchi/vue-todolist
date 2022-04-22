@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #cdb4db;
+}
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+h1::before, h1::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: '\e131';
+    font-size: 3rem;
+    padding: 0 1rem;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.director{
+    font-size: 1.5rem;
+}
+.fa-trash-can{
+    padding-left: 1rem;
+    font-size: 2rem;
+    color: #66009f;
+}
+.input-group-text{
+    background-color: #a2d2ff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.cs_btn{
+    color: black;
+    border: 3px solid #a2d2ff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.cs_btn:hover{
+    background-color: #a2d2ff;
+}
